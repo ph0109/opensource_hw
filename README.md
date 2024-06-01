@@ -20,7 +20,8 @@ top 명령어를 실행하면 현재 시스템에서 실행 중인 프로세스�
 
 ### 예시본
 ![image](https://github.com/ph0109/opensource_hw/assets/132151797/f0e89c1a-014b-48bd-8af3-173cdb693fad)
-<img src = "https://github.com/ph0109/opensource_hw/assets/132151797/f0e89c1a-014b-48bd-8af3-173cdb693fad" width="100" height = "50">
+
+
 ## 📌ps
 현재 실행중인 프로세스에 대한 정보를 보여줍니다. 
 
@@ -47,6 +48,10 @@ ps 명령어는 다양한 옵션들을 조합하여 사용할 수 있으며, 사
 - PPID: 부모 프로세스 ID
 - C: CPU 사용량
 
+### 예시본
+![image2](https://github.com/ph0109/opensource_hw/assets/132151797/e05892d4-9654-4095-9767-091c76cb8aa0)
+
+
 ## 📌jobs
 현재 쉘 세션에서 실행중이거나 정지된 백그라운드 작업의 목록을 보여줍니다. 
 
@@ -70,6 +75,10 @@ jobs [옵션] [작업번호...]
 - -r: 실행 중인 작업만을 출력
 - -s: 정지된 작업만을 출력
 
+### 예시본
+![image3](https://github.com/ph0109/opensource_hw/assets/132151797/462904aa-99d4-40ed-8ed4-cfcd1cd21644)
+
+
 ## 📌kill
 Linux에서 kill 명령어는 프로세스에 신호를 보내는 데 사용됩니다. 
 
@@ -90,3 +99,6 @@ kill [옵션] <프로세스ID>
                SIGKILL은 거의 모든 상황에서 프로세스를 종료시킬 수 있지만, 시스템이 깨끗하게 종료되지 않을 수 있으므로 신중해야함. 
 - SIGSTOP (19): 프로세스를 일시 정지시키는 신호
                 이 신호는 SIGCONT 신호를 받을 때까지 프로세스를 정지시킴. 
+
+### 예시본
+![image4](https://github.com/ph0109/opensource_hw/assets/132151797/3599a54d-5275-42ba-85fc-1246ecb32645)
